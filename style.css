@@ -6,13 +6,14 @@ img{
     margin-bottom: 10px;
     border: 5px solid #c100c9;
 
-}   
-
+}  
+ 
 body, html{
     font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
     color: black;
     text-align: center;
+    
 }
 
 html{
