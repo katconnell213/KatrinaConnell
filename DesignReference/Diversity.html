@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<link href="style.css" type="text/css" rel="stylesheet">
+
+<head>
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+  <title>The Dussias BrainTracking Lab</title>
+  <meta content="width=device-width, initial-scale=1">
+</head>
+
+
+
+<header>
+
+  <a href="./index.html"> <img class = "headerimg" alt = "a picture of Giuli Dussias" src="./images/Slideshow/header.jpg"/> </a>
+
+  <hr/>
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn ">
+        <a href="./AboutMe.html">About Me</a>
+      </button>
+      <div class="dropdown-content">
+      </div> 
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="./MyResearch.html">My Research</a>
+      </button>
+
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn activepage">
+        <a href="./Diversity.html">Diversity & Inclusion</a>
+      </button>
+      <div class="dropdown-content">
+      </div> 
+    </div>
+    
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="./MyTeaching.html">My Teaching</a>
+      </button>
+    </div>
+    
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="https://dussiaslab.github.io/DussiasBrainTrackingLab/">My Lab</a>
+      </button>
+      <div class="dropdown-content">
+        <a href="https://dussiaslab.github.io/DussiasBrainTrackingLab/Facilities.html">Facilities</a>
+        <a href="https://dussiaslab.github.io/DussiasBrainTrackingLab/CurrentProjects.html">Current Projects</a>
+        <a href="https://dussiaslab.github.io/DussiasBrainTrackingLab/LabMembers.html">Lab Members</a>
+
+
+      </div> 
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">
+        <a href="./PIRE.html">PIRE</a>
+      </button>
+      <div class="dropdown-content">
+      </div> 
+    </div>
+  </div>
+
+<hr/>
+</header>
+
+
+<body>
+  
+<article>
+<h1>Diversity and Inclusion</h1>
+
+
+<div class = "contentbox">
+<p>Bilingualism, bidialectalism (e.g., black vernacular English and so-called “book” English) and language learning are topics that naturally attract students from underrepresented groups, many of whom speak more than one language or more than one language variety themselves. In my work, I support diversity by recruiting students from underrepresented racial and ethnic groups. In my lab, I create an environment that assert the right to work and learn without fear of persecution based on race, gender identity and expression, language, culture, religion, and all other rights put forth in the Universal Declaration of Human Rights.</p>
+<p>Through our chapter of <a href="http://cls.psu.edu/bilingualism-matters" target="_blank"> Bilingualism Matters</a> at Penn State, we have been able to increase the visibility of our work nationally and internationally by creating opportunities for students of diverse ethnic and racial backgrounds to engage in outreach activities. The nature of my work has contributed to the infrastructure of science by including participants from underrepresented groups in the U.S., including U.S. Latinos and participants from the Caribbean, and Central and South America. The diversity of the pool has brought language data from historically underrepresented groups to theories of language processing. In my research, I routinely involve graduate and undergraduate students from underrepresented populations, thus promoting the inclusion and training of a more diverse group of students than is typical in the language sciences.</p>
+<p> I have also leveraged my position as a department head to create a fund that provides 30 scholarships per year to economically-disadvantaged undergraduate students to participate in Study Abroad programs. I also oversaw the development of a new asynchronous course on Spanish for the medical professions, which trains students pursuing a medical education to enter Hispanic underserved communities with a better command of the Hispanic language, customs and culture.</p>
+<p>Through our NSF <a href="https://pire.la.psu.edu/" target="_blank">PIRE</a> grants, we have been successful in bringing together a network of faculty and students who bring diversity to our research and workplace, and in creating opportunities that impact public service endeavors. We have recruited and retained minority students and have established supportive relationships between mentors and fellows. Wherever I go, the experience that I have gained in these contexts comes with me.</p>
+</div>
+
+</article>
+<br>
+
+<footer>
+  <hr/>
+  <div class = "main">
+    <div class="flextable" style = "width: 20%;">
+      <div class = "flexitemcenterfooter">
+        <a href = "./MyLab.html" target="_blank"><img src="./images/Web_Logo-Black.jpg" class = "logo" alt="Penn State lion logo" ></a>
+      </div>
+    </div>
+    <div class = "flextable"style = "width: 80%;">
+      <div class = "flexitemleft">
+        <p>Dr. Paola Giuli Dussias<br>
+        Department of Spanish, Italian, & Portuguese<br>
+        439 Burrowes Building<br>
+        University Park, Pa 16802</p>
+      </div>
+      <div class = "flexitemleft" id = "contact">
+        <p>Phone:&nbsp;(814) 865-4252  <br>
+        Fax: &nbsp;  &nbsp; (814) 863-7944 <br>
+        Email: &nbsp;pdussias at psu dot edu  </p>
+      </div>
+    </div>
+  </div>
+  <hr/>
+</footer>
+
+<br>
+
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+  </script>
+</body>
+
+
+
+</html>
