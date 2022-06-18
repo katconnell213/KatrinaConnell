@@ -13,7 +13,22 @@ body, html{
     font-size: 16px;
     color: black;
     text-align: center;
-    
+
+}
+
+section{
+  padding:10px;
+  display:block;
+  width: 90%;
+  border-radius: 15px;
+  margin: auto;
+}
+.sectionbody{
+  padding:10px;
+  display:block;
+  width: 98%;
+  border-radius: 15px;
+  margin: auto;
 }
 
 html{
@@ -189,7 +204,7 @@ a {
     display: flex;
     align-items: center;
     text-align: center;
-    max-width: 70%;
+    max-width: 80%;
     background-color: rgba(255, 255, 255, 0.89);
     margin: auto;
     border-radius: 50px;
@@ -250,7 +265,7 @@ a {
 
 .watermark{
   background-color: rgba(255, 255, 255, 0.656);
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
   border-radius: 15px;
   }
@@ -269,6 +284,11 @@ a {
       margin: auto;
       width: 70%;
     }
+
+    .alignleft{
+      text-align: left;
+    }
+
 #emphasis{
   font-family: 'Optima';
   font-weight: bold;
