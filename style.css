@@ -168,6 +168,21 @@ a {
   
   }
   
+
+  .emphbox{
+    background-color: #84b55c;
+    border: 5px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 12px 30px;
+  }
+
+  .emphbox p{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
   
 
   /* Style  download buttons */
