@@ -275,7 +275,7 @@ a {
 .logo {
   max-width: 120px; 
   max-height: 100px; 
-  overflow: visible;
+  overflow: hidden;
   display:block;
 }
 
